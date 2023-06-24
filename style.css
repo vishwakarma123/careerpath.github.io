@@ -1,0 +1,201 @@
+
+body{
+  background-color: rgb(195, 224, 220);
+  position:fixed;
+  text-align: center;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+/* .logo{
+  border-radius: 172px;
+  height: 128px;
+  width: 128px;
+  margin-left: 690px;
+} */
+
+.main{
+  text-align: center;
+
+}
+
+.long-button {
+  display: inline-block;
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #bbdfec;
+  border: double;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+  opacity: 0.5;
+  
+}
+
+.long-button:hover {
+  background-color: #7ab27d;
+  opacity: 0.5;
+}
+
+
+/* Additional styles for a longer button */
+.long-button {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+}
+
+
+    /* only for cancel button */
+    /* .cancelbtn {
+      width: auto;
+      padding: 9px 16px;
+      background-color: #f44336;
+     */
+/* } */
+
+.logo {
+  border-radius: 50%;
+  max-width: 100%;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #bbdfec;
+  border: double;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+  opacity: 0.5;
+  width: 600px;
+  height: 50px;
+  margin: 10px;
+  
+}
+
+.button:hover {
+  background-color: #7ab27d;
+  opacity: 0.5;
+} */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #bbdfec;
+  border: double;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+  width: 915px;
+  height: 66px;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #7ab27d;
+  opacity: 0.5;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .button {
+    width: 82%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 990px){
+      .logo {
+        width: 34%;
+        height: 16%;
+    }
+    .long-button{
+      width: 52%;
+      height: 10%;
+    }
+  }
+/* 
+
+
+/* Adjust the layout for smaller screens */
+@media screen and (max-width: 800px) {
+  /* Example breakpoint at 600px, modify as needed */
+  .main {
+    text-align: center;
+  }
+
+}
+
+/* Social media icon */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+
+
